@@ -5,12 +5,12 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ru.mfoods.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
     <name>ТЕСТ. MARTINO</name>
 
     <description>
-        «Мартино» - это домашняя кухня в быстром формате с бесплатной доставкой. Блюда болгарской кухни. Вкуснейшие пасты, ланчи, салаты и закуски. Все готовится только после заказа, что является гарантией свежести приготовленной для вас еды.
+        «Мартино» - это домашняя кухня в быстром формате с бесплатной доставкой. Блюда болгарской кухни. Вкуснейшие пасты, ланчи, салаты и закуски.
     </description>
 
     <author>Tadapp</author>
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#FFFFFF" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
